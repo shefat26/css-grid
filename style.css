@@ -1,0 +1,23 @@
+
+
+ .parent{
+
+    border: 1px solid black;
+    padding: 30px 20px;
+    margin: 20px;
+    /* background-color: aqua; */
+    gap: 10px 20px;
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr ; */
+    grid-template-columns: 150px 250px 50px;
+}
+
+.parent div{
+
+    /* border: 1px solid black; */
+    padding: 30px 20px;
+    /* margin: 20px; */
+    background-color: aqua;
+}
+
+
