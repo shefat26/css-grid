@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
    position: relative;
-   height: 10vh;
+   height: 20vh;
 
  }
 
@@ -53,23 +53,23 @@
 
     position: absolute;
     left: 0;
-    top: 30px;
+    top: 0;
 
 
  }
  .btn2{
 
     position: absolute;
-    left: 90px;
-    top: 30px;
+    right: 0;
+    top: 0;
 
 
  }
  .btn3{
 
     position: absolute;
-    left: 180px;
-    top: 30px;
+    left: 0;
+    bottom: 0;
 
 
  }
@@ -77,40 +77,44 @@
  .btn4{
 
     position: absolute;
-    left: 700px;
-    top: 30px;
+    right: 0;
+    bottom: 0;
 
 
  }
+
  .btn5{
 
     position: absolute;
-    left: 790px;
-    top: 30px;
+    left: 640px;
+    top: 60px;
 
 
  }
+
  .btn6{
 
     position: fixed;
-    left: 900px;
-    top: 323px;
+    left: 250px;
+    top: 290px;
 
 
  }
+
+
  .btn7{
 
     position: fixed;
-    right: 20px;
-    top: 323px;
+    right: 250px;
+    top: 290px;
 
 
  }
  .btn8{
 
     position: fixed;
-    right: 120px;
-    top: 323px;
+    right: 650px;
+    top: 353px;
 
 
  }
@@ -141,6 +145,9 @@
 
 
 
+
+
+
 }
 
 
@@ -154,7 +161,7 @@
         background-color: purple;
 
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: repeat(3, 1fr) ;
 
         gap: 10px;
     }
@@ -169,6 +176,17 @@
         
     
     }
+
+
+
+    .btn5{
+
+      /* position: absolute; */
+      left: 250px;
+      /* top: 60px; */
+  
+  
+   }
 
 
 
