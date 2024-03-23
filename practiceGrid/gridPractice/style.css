@@ -1,0 +1,97 @@
+
+
+.parent{
+
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 400px 700px;
+    justify-content: center;
+}
+
+.child{
+
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+
+
+.parent2{
+
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+
+    
+}
+
+.child2{
+
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    
+}
+
+
+button{
+
+    border: 1px solid black;
+    padding: 20px;
+    background-color: red;
+}
+
+.btn1{
+
+    position:absolute ;
+    top: 0px;
+    right: 200px;
+}
+.btn2{
+
+    position:absolute ;
+    bottom: 0px;
+    right: 950px;
+}
+
+
+.btn7{
+
+    position:fixed;
+    top: 813px;
+    right: 50px;
+}
+
+
+.btn6{
+
+    position:fixed;
+    top: 813px;
+    left: 50px;
+}
+
+.btn8{
+
+    position:fixed;
+    bottom: 225px;
+    right: 50px;
+}
+
+.btn9{
+
+    position:fixed;
+    bottom: 225px;
+    left: 50px;
+}
+.btn10{
+
+    position:fixed;
+    bottom: 150px;
+    right: 850px;
+}
