@@ -1,5 +1,18 @@
 
 
+
+
+.uList{
+
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
 .parent{
 
     border: 1px solid black;
@@ -59,6 +72,11 @@ button{
     bottom: 0px;
     right: 950px;
 }
+
+
+
+/* Position practice */
+
 
 
 .btn7{
